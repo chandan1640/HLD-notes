@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HLD Notes - System Design</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 720px;
+      width: 100%;
+    }
+    h1 {
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+      color: #f0f6fc;
+    }
+    .subtitle {
+      color: #8b949e;
+      margin-bottom: 2rem;
+      font-size: 0.9rem;
+    }
+    .grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 0.9rem 1.2rem;
+      text-decoration: none;
+      color: #c9d1d9;
+      transition: border-color 0.2s, background 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .card:hover {
+      border-color: #58a6ff;
+      background: #1c2128;
+    }
+    .card .icon {
+      font-size: 1.3rem;
+      flex-shrink: 0;
+    }
+    .card .title {
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    .card .arrow {
+      margin-left: auto;
+      color: #58a6ff;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📘 HLD Notes</h1>
+    <p class="subtitle">High-Level Design study notes — SST-2028</p>
+    <div class="grid">
+      <a class="card" href="[SST-2028] HLD 1 - System Design 101.html">
+        <span class="icon">🏗️</span>
+        <span class="title">HLD 1 — System Design 101</span>
+        <span class="arrow">→</span>
+      </a>
+      <a class="card" href="[SST-2028] Load Balancing &amp; Consistent Hashing.html">
+        <span class="icon">⚖️</span>
+        <span class="title">Load Balancing &amp; Consistent Hashing</span>
+        <span class="arrow">→</span>
+      </a>
+      <a class="card" href="[SST-2028] CAP-PACELC.html">
+        <span class="icon">🎯</span>
+        <span class="title">CAP &amp; PACELC</span>
+        <span class="arrow">→</span>
+      </a>
+      <a class="card" href="[SST-2028] Intro to Caching.html">
+        <span class="icon">⚡</span>
+        <span class="title">Intro to Caching</span>
+        <span class="arrow">→</span>
+      </a>
+      <a class="card" href="[SST-2028] - Caching 2.html">
+        <span class="icon">💾</span>
+        <span class="title">Caching 2</span>
+        <span class="arrow">→</span>
+      </a>
+      <a class="card" href="[SST-2028] Caching Case Studies.html">
+        <span class="icon">📋</span>
+        <span class="title">Caching Case Studies</span>
+        <span class="arrow">→</span>
+      </a>
+      <a class="card" href="[SST-2028] Case Study_ Google Search Typeahead.html">
+        <span class="icon">🔍</span>
+        <span class="title">Case Study: Google Search Typeahead</span>
+        <span class="arrow">→</span>
+      </a>
+      <a class="card" href="[SST-2028] Case Study_ Typeahead -2.html">
+        <span class="icon">⌨️</span>
+        <span class="title">Case Study: Typeahead (cont.)</span>
+        <span class="arrow">→</span>
+      </a>
+      <a class="card" href="[SST-2028] Sql vs NoSql + Sharding Key.html">
+        <span class="icon">🗄️</span>
+        <span class="title">SQL vs NoSQL + Sharding Key</span>
+        <span class="arrow">→</span>
+      </a>
+      <a class="card" href="[SST-2028] NoSQL Internals - LSM Tree.html">
+        <span class="icon">🌲</span>
+        <span class="title">NoSQL Internals — LSM Tree</span>
+        <span class="arrow">→</span>
+      </a>
+      <a class="card" href="[SST-2028] NoSQL Internals - LSM Tree + Bloom Filter + Sparse Index.html">
+        <span class="icon">🔖</span>
+        <span class="title">NoSQL Internals — LSM Tree + Bloom Filter + Sparse Index</span>
+        <span class="arrow">→</span>
+      </a>
+      <a class="card" href="[SST-2028] HLD101 Assignment_ Search Typeahead.html">
+        <span class="icon">📝</span>
+        <span class="title">HLD101 Assignment: Search Typeahead</span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
