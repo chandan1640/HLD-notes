@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HLD-NOTES - System Design</title>
+  <title>HLD Notes - System Design</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -64,18 +64,12 @@
       font-size: 1.1rem;
     }
   </style>
-</head>
-<button onclick="location.href='https://hld-notes.vercel.app'" style="position:fixed;top:1rem;left:1rem;background:#161b22;border:1px solid #30363d;border-radius:6px;color:#c9d1d9;padding:0.5rem 1rem;cursor:pointer;font-size:0.9rem;z-index:10000;">← Back to Home</button>
+</head><button onclick="location.href='https://hld-notes.vercel.app'" style="position:fixed;top:1rem;left:1rem;background:#161b22;border:1px solid #30363d;border-radius:6px;color:#c9d1d9;padding:0.5rem 1rem;cursor:pointer;font-size:0.9rem;z-index:10000;">← Back to Home</button>
 <body>
   <div class="container">
-    <h1>HLD-NOTES</h1>
-    <div class="top-footer">Made with ❤️ by <span style="color:#8b949e;">NoiceHax</span></div>
+    <h1>📘 HLD Notes</h1>
     <p class="subtitle">High-Level Design study notes — SST-2028</p>
     <div class="grid">
-      <a class="card" href="[SST-2028] HLD101 Assignment_ Search Typeahead.html">
-        <span class="title">Assignment</span>
-        <span class="arrow">→</span>
-      </a>
       <a class="card" href="[SST-2028] HLD 1 - System Design 101.html">
         <span class="title">1. System Design 101</span>
         <span class="arrow">→</span>
@@ -133,8 +127,6 @@
         <span class="arrow">→</span>
       </a>
     
-  <div class="footer">
-    Made with love ❤️ by <a href="https://github.com/NoiceHax" target="_blank">NoiceHax</a>
   </div>
 </body>
 </html>
