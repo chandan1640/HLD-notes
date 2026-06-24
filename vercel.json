@@ -1,15 +1,5 @@
 {
   "version": 2,
   "framework": null,
-  "cleanUrls": false,
-  "rewrites": [
-    {
-      "source": "/[SST-2028] Sql vs NoSql  Sharding Key.html",
-      "destination": "/[SST-2028] Sql vs NoSql + Sharding Key.html"
-    },
-    {
-      "source": "/[SST-2028] NoSQL Internals - LSM Tree  Bloom Filter  Sparse Index.html",
-      "destination": "/[SST-2028] NoSQL Internals - LSM Tree + Bloom Filter + Sparse Index.html"
-    }
-  ]
+  "cleanUrls": false
 }
